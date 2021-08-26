@@ -1,0 +1,12 @@
+{
+    "name": "NR-test",
+    "description": "Testing",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_Christoffers-Mac-mini.local.json",
+            "credentialsFile": "flows_Christoffers-Mac-mini.local_cred.json"
+        }
+    }
+}

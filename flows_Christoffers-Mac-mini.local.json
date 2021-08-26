@@ -1,0 +1,51 @@
+[
+    {
+        "id": "9f0c735d.173398",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "92674ffb.45ecd8",
+        "type": "tab",
+        "label": "ISE-APP",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "caa3ed09.623478",
+        "type": "graphql-config",
+        "name": "VPN",
+        "endpoint": "https://realm.mongodb.com/api/client/v2.0/app/vpn-rasga/graphql",
+        "authorizationHeader": "apiKey",
+        "authorizationToken": "ivAPs7mm6FOOO2WSFvMPxUwzGzg93Hg1YsJsUKGFj0034zagWHJ2wc4gdaVzr83G"
+    },
+    {
+        "id": "371120d975635ce1",
+        "type": "inject",
+        "z": "92674ffb.45ecd8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 430,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    }
+]
